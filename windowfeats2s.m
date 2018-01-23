@@ -13,7 +13,7 @@ function [windowed] = windowfeats2s(rmsDelta,rmsAlpha,rmsBeta,rmsGamma,WEntropyE
 %     windowed(163,1+14*(k-1):14*k) = rmsGamma(1+1*(k-1):1*k,1:14);
 %     windowed(164,1+14*(k-1):14*k) = WEntropyEEG(1+1*(k-1):1*k,1:14);
 % end
-
+%Random Comment
 for k = 1:59
     for ch = 1:14
 %   1+window_per_dwt*(ch-1):window_per_dwt,1+14*(ch-1):14*ch
